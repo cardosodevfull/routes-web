@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary-color: #FBFBFB;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.card-peyment{
+    border-left: 1px solid #ccc;
+}
+
+.container{
+    margin-top: 60px;
+}
+.logo{
+    font-size: 20px;
+}
